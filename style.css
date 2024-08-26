@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #e0f7fa, #ce93d8); /* Gradiente de azul clarinho para roxo */
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.genre-section {
+    background-color: rgba(211, 211, 211, 0.8); /* Cinza claro com transparência */
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.anime-item {
+    background-color: #f5f5f5; /* Cinza muito claro */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 150px;
+}
+
+.anime-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .highlight {
+    font-weight: bold;
+    color: #ff5722; /* Destaque em cor laranja */
+    margin-top: 10px;
+}
+
+footer .highlight img {
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
